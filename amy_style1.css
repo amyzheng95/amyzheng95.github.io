@@ -12,6 +12,7 @@
 #top-menu li {
     display: inline;
     list-style-type: none;
+    top:-10px;
 }
 
 #top-menu a {
@@ -24,6 +25,7 @@
     border-top: 3px solid white;
     color: #aaa;
     text-decoration: none;
+    top:-10px;
 }
 
 #top-menu a:hover {
@@ -33,6 +35,7 @@
 #top-menu li.active a {
     border-top: 3px solid #333;
     color: #333;
+    top:-10px;
 }
 
 
