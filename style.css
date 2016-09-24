@@ -10,34 +10,42 @@
 }
 
 body{
-    height: 1800px;
+    height: 1650px;
     width:100%;
 }
 
 #Me{
     z-index:-1;
-    height:1000px;
+    height:700px;
     width: 100%;
     Background: white;
     position: absolute;
 }
 
 #AmyPic{
-    margin-top:200px;
+    margin-top:125px;
     position: absolute;
     
 }
 
+#buttonMoreAboutMe{
+    z-index:2;
+    margin-top:500px;
+    margin-left: 700px;
+    position:absolute;
+}
+
+
 pre{
     font-size: 15px;
-    margin-top:300px;
+    margin-top:200px;
     margin-left:400px;
     z-index: 1;
     position: absolute;
 }
 
 #Portfolio{
-    margin-top:800px;
+    margin-top:700px;
     z-index: -1;
     height:500px;
     width: 100%;
@@ -46,7 +54,7 @@ pre{
 }
 
 #CV{
-    margin-top:1300px;
+    margin-top:1200px;
     z-index: -1;
     height:250px;
     width:100%;
@@ -54,8 +62,24 @@ pre{
     position: absolute;
 }
 
+#CVButton{
+    height: 180px;
+    width: 120px;
+    left:50%;
+    top: 25%;
+    margin-left: -50px;
+    margin-top: -30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    position:absolute;
+    text-align:center;
+    font-size: 50px;
+    Background:white;
+}
+
 #Contact{
-    margin-top:1550px;
+    margin-top:1450px;
     z-index:-1;
     height:200px;
     width:100%;
@@ -64,7 +88,7 @@ pre{
 }
 
 #Footer{
-    margin-top:1750px;
+    margin-top:1650px;
     z-index:-1;
     height:50px;
     width:100%;
@@ -76,3 +100,5 @@ pre{
     color:white;
     text-align: center;
 }
+
+
