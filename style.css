@@ -1,23 +1,13 @@
 
-#header{
-    margin-top: -10;
-    margin-left:-10;
-    z-index=1;
-    height:60px;
-    width:100%;
-    Background: black;
-    position:fixed;
-}
-
 body{
     height: 1650px;
     width:100%;
 }
 
 #Me{
-    z-index:-1;
     height:700px;
     width: 100%;
+    margin-left: -10px;
     Background: white;
     position: absolute;
 }
@@ -29,25 +19,36 @@ body{
 }
 
 #buttonMoreAboutMe{
-    z-index:2;
     margin-top:500px;
     margin-left: 700px;
+    height:50px;
+    width:150px;
+    border:solid;
     position:absolute;
+    background: black;
+    color:white;
+    font-size:18px;
+    border-radius:4px;
+    border: none;
+    text-align:center;
+    text-decoration:none;
+    line-height: 50px;
+    font-family:sans-serif;
 }
+
 
 
 pre{
     font-size: 15px;
     margin-top:200px;
     margin-left:400px;
-    z-index: 1;
     position: absolute;
 }
 
 #Portfolio{
     margin-top:700px;
-    z-index: -1;
     height:500px;
+    margin-left: -10px;
     width: 100%;
     Background: #ffffb3;
     position: absolute;
@@ -55,9 +56,9 @@ pre{
 
 #CV{
     margin-top:1200px;
-    z-index: -1;
     height:250px;
     width:100%;
+    margin-left: -10px;
     Background: white;
     position: absolute;
 }
@@ -80,18 +81,18 @@ pre{
 
 #Contact{
     margin-top:1450px;
-    z-index:-1;
     height:200px;
     width:100%;
+    margin-left: -10px;
     Background: #d9d9d9;
     position:absolute;
 }
 
 #Footer{
     margin-top:1650px;
-    z-index:-1;
     height:50px;
     width:100%;
+    margin-left: -10px;
     Background: black;
     position: absolute;
 }
@@ -99,6 +100,16 @@ pre{
 #Footer > p{
     color:white;
     text-align: center;
+}
+
+#header{
+    margin-top: -10;
+    margin-left:-10;
+    z-index:1;
+    height:60px;
+    width:100%;
+    Background: black;
+    position:fixed;
 }
 
 
