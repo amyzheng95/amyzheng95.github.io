@@ -10,7 +10,8 @@
 }
 
 body{
-    height: 2000px;
+    height: 1800px;
+    width:100%;
 }
 
 #Me{
@@ -28,14 +29,15 @@ body{
 }
 
 pre{
-    margin-top:500px;
-    margin-left:500px;
+    font-size: 15px;
+    margin-top:300px;
+    margin-left:400px;
     z-index: 1;
     position: absolute;
 }
 
 #Portfolio{
-    margin-top:1000px;
+    margin-top:800px;
     z-index: -1;
     height:500px;
     width: 100%;
@@ -44,7 +46,7 @@ pre{
 }
 
 #CV{
-    margin-top:1500px;
+    margin-top:1300px;
     z-index: -1;
     height:250px;
     width:100%;
@@ -53,7 +55,7 @@ pre{
 }
 
 #Contact{
-    margin-top:1750px;
+    margin-top:1550px;
     z-index:-1;
     height:200px;
     width:100%;
@@ -62,11 +64,15 @@ pre{
 }
 
 #Footer{
-    margin-top:1950px;
+    margin-top:1750px;
     z-index:-1;
     height:50px;
     width:100%;
     Background: black;
     position: absolute;
-    
+}
+
+#Footer > p{
+    color:white;
+    text-align: center;
 }
