@@ -83,8 +83,11 @@ pre{
     background-color: yellow;
 }
 
-#CVButton > p{
+#CVButton > a{
     text-decoration:none;
+}
+
+#CVButton > p{
     font-family:sans-serif;
     color:black;
     font-size: 55px;
