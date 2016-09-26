@@ -1,0 +1,110 @@
+#drawingText{
+    font-size:50px;
+    margin-top:200px;
+    margin-left:35%;
+    position:absolute;
+}
+
+#drawingArea{
+    margin-top:500px;
+    height:1000px;
+    width:100%;
+    position:absolute;
+}
+
+#B{
+    zoom:60%;
+    position:absolute;
+    
+}
+#A{
+    zoom:60%;
+    position:absolute;
+    margin-left:800px;
+}
+#D{
+    zoom:50%;
+    margin-left:2000px;
+    position:absolute;
+    
+}
+#C{
+    zoom:50%;
+    margin-top:700px;
+    position:absolute;
+}
+
+#Contact{
+    margin-top:1450px;
+    height:200px;
+    width:100%;
+    margin-left: -10px;
+    Background: #d9d9d9;
+    position:absolute;
+}
+
+#faceBook{
+    margin-top: 100px;
+    margin-left:80%;
+    position:absolute;
+    
+}
+
+#linkedin{
+    margin-top: 100px;
+    margin-left:85%;
+    position:absolute;
+}
+
+#github{
+    margin-top: 100px;
+    margin-left:90%;
+    position:absolute;
+}
+
+#weChat{
+    margin-top: 100px;
+    margin-left:95%;
+    position:absolute;
+}
+
+
+#Footer{
+    margin-top:1650px;
+    height:50px;
+    width:100%;
+    margin-left: -10px;
+    Background: black;
+    position: absolute;
+}
+
+#Footer > p{
+    color:white;
+    text-align: center;
+}
+
+
+#header{
+    margin-top: -10;
+    margin-left:-10;
+    z-index:1;
+    height:60px;
+    width:100%;
+    Background: black;
+    position:fixed;
+}
+
+ul li{
+    margin-top:20px;
+    padding:50px;
+    margin-left:130px;
+    font-size:20px;
+    display: inline;
+    color:white;
+    font-family:sans-serif;
+    
+}
+
+ul a{
+    text-decoration:none;
+}
